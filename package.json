@@ -1,0 +1,45 @@
+{
+  "name": "react-geolocation-autosuggest",
+  "version": "0.1.1",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "description": "React Google location auto-suggest/autocomplete to provide all possible information with fields like Country, State, City, Pin-code etc.",
+  "repository": "TechnologyGeek12/react-geolocation-autosuggest",
+  "license": "MIT",
+  "homepage": "https://technologygeek12.github.io/react-geolocation-autosuggest/",
+  "keywords": [
+    "React Geolocation Autosuggest",
+    "React Google Autocomplete",
+    "React Geolocation Autocomplete",
+    "React Location Autocomplete",
+    "React Location Autosuggest",
+    "React Google Autosuggest",
+    "Location",
+    "Geolocation",
+    "React"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4",
+    "react-test-renderer": "^16.3.2"
+  },
+  "peerDependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build-examples": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "build": "react-scripts build"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "autosuggest-highlight": "^3.1.1",
+    "lodash": "^4.17.11",
+    "react-autosuggest": "^9.4.3"
+  }
+}
